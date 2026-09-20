@@ -1,0 +1,242 @@
+split,class,label,source_video,sequence_index,sequence_file,fps,image_width,image_height,sequence_length,stride
+train,accident,1,WhatsApp Video 2026-09-08 at 3.17.04 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.17.04 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.17.07 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.17.07 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.35 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.35 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.37 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.37 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.40 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.40 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.41 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.41 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.42 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.42 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.42 PM (2).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.42 PM (2)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.22.42 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.42 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.33.42 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.33.42 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.33.42 PM (1).mp4,1,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.33.42 PM (1)_seq_0001.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.33.42 PM (1).mp4,2,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.33.42 PM (1)_seq_0002.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-08 at 3.33.42 PM (1).mp4,3,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.33.42 PM (1)_seq_0003.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 10.08.46 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.08.46 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 10.20.31 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.20.31 PM_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 10.21.38 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.21.38 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 10.21.40 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.21.40 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 10.21.42 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.21.42 PM (1)_seq_0000.npz,10,160,160,64,64
+train,accident,1,WhatsApp Video 2026-09-09 at 9.59.45 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 9.59.45 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,3,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0003.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,4,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0004.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,5,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0005.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,6,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0006.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,7,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0007.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM (2).mp4,8,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM (2)_seq_0008.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.34.58 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.58 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM (1)_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM (1).mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM (1)_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM (2).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM (2)_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,3,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0003.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,4,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0004.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,5,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0005.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,6,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.35.00 PM_seq_0006.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.40.29 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.40.29 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.43.48 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.43.48 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.43.48 PM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.43.48 PM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.43.48 PM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.43.48 PM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 3.45.17 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.45.17 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.35.16 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.16 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.35.16 PM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.16 PM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.35.21 PM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.21 PM (1)_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.35.21 PM (1).mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.21 PM (1)_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.36.31 PM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.31 PM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-08 at 9.36.31 PM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.31 PM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.19.48 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.48 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.19.48 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.48 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.19.53 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.53 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.19.53 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.53 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.19.53 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.53 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.02 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.02 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.02 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.02 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.02 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.02 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.16 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.16 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.16 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.16 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.16 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.16 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.18 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.18 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.18 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.18 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.18 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.18 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.23 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.23 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.23 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.23 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.23 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.23 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.26 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.26 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.26 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.26 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.42 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.42 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.42 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.42 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.42 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.42 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.50 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.50 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.50 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.50 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.50 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.50 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.57 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.57 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.57 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.57 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.20.57 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.57 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.01 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.01 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.01 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.01 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.01 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.01 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.04 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.04 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.04 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.04 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.04 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.04 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.07 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.07 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.07 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.07 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.07 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.07 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.13 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.13 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.13 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.13 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.16 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.16 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.16 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.16 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.16 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.16 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.22 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.22 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.22 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.22 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.32 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.32 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.32 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.32 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.32 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.32 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.59 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.59 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.59 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.59 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.21.59 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.59 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.00 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.00 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.00 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.00 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.00 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.00 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.04 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.04 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.04 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.04 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.04 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.04 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.06 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.06 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.06 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.06 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.06 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.06 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.08 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.08 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.08 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.08 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.12 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.12 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.12 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.12 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.28 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.28 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.28 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.28 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.44 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.44 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.44 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.44 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.48 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.48 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.48 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.48 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.22.48 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.48 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.00 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.00 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.00 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.00 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.00 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.00 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.03 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.03 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.03 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.03 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.03 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.03 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.17 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.17 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.17 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.17 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.22 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.22 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.22 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.22 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.22 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.22 AM_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.30 AM (1).mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.30 AM (1)_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.30 AM (1).mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.30 AM (1)_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.30 AM (1).mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.30 AM (1)_seq_0002.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.30 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.30 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.30 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.30 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.31 AM.mp4,0,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.31 AM_seq_0000.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.31 AM.mp4,1,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.31 AM_seq_0001.npz,10,160,160,64,64
+train,normal,0,WhatsApp Video 2026-09-09 at 11.23.31 AM.mp4,2,preprocessed_clean_seq64\train_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.31 AM_seq_0002.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.37 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.37 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.38 PM (1).mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.38 PM (1)_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.38 PM (2).mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.38 PM (2)_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.39 PM (1).mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.39 PM (1)_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.39 PM (1).mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.39 PM (1)_seq_0001.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.22.41 PM (1).mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.41 PM (1)_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-08 at 3.33.40 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.33.40 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-09 at 10.07.43 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.07.43 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-09 at 10.07.47 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.07.47 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-09 at 9.29.25 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 9.29.25 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-09 at 9.29.41 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 9.29.41 PM_seq_0000.npz,10,160,160,64,64
+validation,accident,1,WhatsApp Video 2026-09-09 at 9.59.59 PM (2).mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 9.59.59 PM (2)_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-08 at 9.34.35 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.34.35 PM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-08 at 9.34.35 PM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.34.35 PM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-08 at 9.36.39 PM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.39 PM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-08 at 9.36.39 PM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.39 PM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.58 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.58 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.19.58 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.08 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.08 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.08 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.08 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.08 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.08 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.11 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.11 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.11 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.36 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.36 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.20.36 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.36 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.17 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.17 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.17 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.17 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.17 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.17 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.18 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.18 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.18 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.18 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.22.18 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.18 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,0,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0000.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,1,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0001.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,2,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0002.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,3,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0003.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,4,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0004.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,5,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0005.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,6,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0006.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,7,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0007.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,8,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0008.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,9,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0009.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,10,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0010.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,11,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0011.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,12,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0012.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,13,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0013.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,14,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0014.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,15,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0015.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,16,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0016.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,17,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0017.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,18,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0018.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,19,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0019.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,20,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0020.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,21,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0021.npz,10,160,160,64,64
+validation,normal,0,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,22,preprocessed_clean_seq64\validation_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.28 AM_seq_0022.npz,10,160,160,64,64
+test,accident,1,WhatsApp Video 2026-09-08 at 3.22.38 PM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.38 PM_seq_0000.npz,10,160,160,64,64
+test,accident,1,WhatsApp Video 2026-09-08 at 3.22.41 PM (2).mp4,0,preprocessed_clean_seq64\test_10fps_160x160\accident\WhatsApp Video 2026-09-08 at 3.22.41 PM (2)_seq_0000.npz,10,160,160,64,64
+test,accident,1,WhatsApp Video 2026-09-09 at 10.21.42 PM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\accident\WhatsApp Video 2026-09-09 at 10.21.42 PM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,3,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0003.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,4,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0004.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,5,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0005.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,6,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0006.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,7,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0007.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,8,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0008.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,9,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0009.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,10,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0010.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,11,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0011.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,12,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0012.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,13,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0013.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,14,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0014.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,15,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0015.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,16,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0016.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,17,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0017.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 3.34.59 PM (1).mp4,18,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 3.34.59 PM (1)_seq_0018.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.33.51 PM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.33.51 PM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.33.51 PM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.33.51 PM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.35.07 PM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.07 PM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.35.07 PM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.35.07 PM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.36.59 PM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.59 PM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-08 at 9.36.59 PM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-08 at 9.36.59 PM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.20.31 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.31 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.20.31 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.31 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.20.31 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.20.31 AM_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.10 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.10 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.10 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.10 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.10 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.10 AM_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.33 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.33 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.33 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.33 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.33 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.33 AM_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.43 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.43 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.43 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.43 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.21.43 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.21.43 AM_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.22.13 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.13 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.22.13 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.13 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.22.13 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.22.13 AM_seq_0002.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.23.12 AM.mp4,0,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.12 AM_seq_0000.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.23.12 AM.mp4,1,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.12 AM_seq_0001.npz,10,160,160,64,64
+test,normal,0,WhatsApp Video 2026-09-09 at 11.23.12 AM.mp4,2,preprocessed_clean_seq64\test_10fps_160x160\normal\WhatsApp Video 2026-09-09 at 11.23.12 AM_seq_0002.npz,10,160,160,64,64

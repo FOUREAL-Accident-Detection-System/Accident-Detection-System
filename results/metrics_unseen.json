@@ -1,0 +1,17 @@
+{
+    "videos_evaluated": 5,
+    "accuracy": 0.2,
+    "precision": 0.25,
+    "recall": 0.5,
+    "f1_score": 0.3333333333333333,
+    "TN": 0,
+    "FP": 3,
+    "FN": 1,
+    "TP": 1,
+    "model": "accident_detection_10fps_160x160_best.keras",
+    "target_fps": 10,
+    "image_size": "160x160",
+    "sequence_length": 16,
+    "stride": 16,
+    "confidence_threshold": 0.5
+}

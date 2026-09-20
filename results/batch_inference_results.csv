@@ -1,0 +1,6 @@
+video,prediction,confidence,accident_probability,timestamp_seconds,sequences,inference_time_seconds
+unseen_videos\accident 1.mp4,ACCIDENT,0.9451,0.9451,4.8,5,37.258
+unseen_videos\accident 2.mp4,NORMAL,0.595,0.405,,6,1.583
+unseen_videos\normal 1.mp4,ACCIDENT,0.9344,0.9344,0.0,9,2.094
+unseen_videos\normal 2.mp4,ACCIDENT,0.7391,0.7391,12.8,9,2.25
+unseen_videos\normal 3.mp4,ACCIDENT,0.9472,0.9472,11.2,9,2.001

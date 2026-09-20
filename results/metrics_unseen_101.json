@@ -1,0 +1,21 @@
+{
+    "videos_found": 100,
+    "accident_videos": 50,
+    "normal_videos": 50,
+    "videos_evaluated": 92,
+    "accuracy": 0.5434782608695652,
+    "precision": 0.6111111111111112,
+    "recall": 0.44,
+    "f1_score": 0.5116279069767442,
+    "TN": 28,
+    "FP": 14,
+    "FN": 28,
+    "TP": 22,
+    "model": "models/accident_detection_10fps_160x160_best.keras",
+    "fps": 10,
+    "image_size": "160x160",
+    "sequence_length": 16,
+    "stride": 16,
+    "threshold": 0.5,
+    "aggregation": "MAX"
+}

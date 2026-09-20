@@ -1,0 +1,14 @@
+{
+    "model": "accident_detection_clean_10fps_160x160_seq32_best.keras",
+    "sequence_length": 32,
+    "aggregation": "max_probability",
+    "best_threshold": 0.45,
+    "accuracy": 0.8,
+    "precision": 0.8888888888888888,
+    "recall": 0.7272727272727273,
+    "f1": 0.8,
+    "TN": 8,
+    "FP": 1,
+    "FN": 3,
+    "TP": 8
+}

@@ -1,0 +1,21 @@
+{
+    "accuracy": 0.9320388349514563,
+    "precision": 0.9090909090909091,
+    "recall": 0.625,
+    "f1_score": 0.7407407407407406,
+    "TP": 10,
+    "TN": 86,
+    "FP": 1,
+    "FN": 6,
+    "training_time_seconds": 4140.240755081177,
+    "test_inference_time_seconds": 137.12762236595154,
+    "fps": 10,
+    "image_width": 160,
+    "image_height": 160,
+    "sequence_length": 32,
+    "stride": 32,
+    "batch_size": 4,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "threshold": 0.5
+}

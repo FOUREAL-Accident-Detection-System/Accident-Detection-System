@@ -1,0 +1,10 @@
+group_id,videos,train_count,validation_count,test_count,classes,leakage_type
+1,2,1,1,0,normal,TRAIN_VALIDATION_OVERLAP
+2,2,1,1,0,accident,TRAIN_VALIDATION_OVERLAP
+3,2,1,0,1,normal,TRAIN_TEST_OVERLAP
+4,4,3,1,0,normal,TRAIN_VALIDATION_OVERLAP
+5,2,1,0,1,normal,TRAIN_TEST_OVERLAP
+6,3,2,0,1,normal,TRAIN_TEST_OVERLAP
+7,2,1,1,0,normal,TRAIN_VALIDATION_OVERLAP
+8,2,1,0,1,normal,TRAIN_TEST_OVERLAP
+9,2,1,0,1,normal,TRAIN_TEST_OVERLAP

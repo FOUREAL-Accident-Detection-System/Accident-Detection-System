@@ -1,0 +1,25 @@
+video_1,class_1,split_1,video_2,class_2,split_2,min_phash_distance,matching_frame_pairs,same_class,same_split,relationship
+WhatsApp Video 2026-09-08 at 3.35.00 PM (2).mp4,NORMAL,train,WhatsApp Video 2026-09-08 at 3.35.00 PM.mp4,NORMAL,train,0,64,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 3.22.36 PM.mp4,ACCIDENT,train,WhatsApp Video 2026-09-09 at 10.21.43 PM (2).mp4,ACCIDENT,train,0,51,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 3.17.07 PM.mp4,ACCIDENT,train,WhatsApp Video 2026-09-08 at 3.22.41 PM.mp4,ACCIDENT,train,0,38,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 3.17.12 PM.mp4,ACCIDENT,train,WhatsApp Video 2026-09-08 at 3.22.40 PM (2).mp4,ACCIDENT,train,0,38,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 3.43.48 PM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.20.02 AM.mp4,NORMAL,train,0,15,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 3.43.48 PM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.20.16 AM.mp4,NORMAL,train,0,12,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.50 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.22.28 AM.mp4,NORMAL,train,0,6,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.42 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.21.04 AM.mp4,NORMAL,train,2,62,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,NORMAL,validation,4,42,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.36 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,NORMAL,validation,4,29,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.20.36 AM.mp4,NORMAL,validation,6,35,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,NORMAL,validation,6,27,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.19.58 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.23.28 AM.mp4,NORMAL,validation,6,14,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.21.16 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.22.06 AM.mp4,NORMAL,train,6,6,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.11 AM.mp4,NORMAL,validation,WhatsApp Video 2026-09-09 at 11.20.36 AM.mp4,NORMAL,validation,8,42,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 9.34.35 PM.mp4,NORMAL,validation,WhatsApp Video 2026-09-08 at 9.36.39 PM.mp4,NORMAL,validation,8,37,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.20.02 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.20.16 AM.mp4,NORMAL,train,8,12,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.23.00 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.23.03 AM.mp4,NORMAL,train,8,2,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-08 at 9.35.21 PM (1).mp4,NORMAL,train,WhatsApp Video 2026-09-08 at 9.36.31 PM.mp4,NORMAL,train,10,14,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.21.22 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.21.32 AM.mp4,NORMAL,train,10,9,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 10.08.46 PM (1).mp4,ACCIDENT,train,WhatsApp Video 2026-09-09 at 10.21.38 PM.mp4,ACCIDENT,train,10,5,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 11.22.04 AM.mp4,NORMAL,train,WhatsApp Video 2026-09-09 at 11.22.12 AM.mp4,NORMAL,train,10,4,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 10.08.48 PM (2).mp4,ACCIDENT,train,WhatsApp Video 2026-09-09 at 10.21.38 PM (1).mp4,ACCIDENT,train,12,3,True,True,SAME_SPLIT_SIMILAR
+WhatsApp Video 2026-09-09 at 10.20.31 PM.mp4,ACCIDENT,train,WhatsApp Video 2026-09-09 at 10.21.41 PM (3).mp4,ACCIDENT,train,12,2,True,True,SAME_SPLIT_SIMILAR

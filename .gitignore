@@ -1,0 +1,43 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets
+dataset/
+dataset_clean/
+dataset_split/
+dataset_split_clean/
+*.zip
+*.zip.zip
+
+# Preprocessed data
+preprocessed/
+preprocessed_clean/
+preprocessed_clean_seq32/
+preprocessed_clean_seq64/
+
+# Unseen videos
+unseen_videos/
+
+# Trained model files
+models/*.keras
+models/*.h5
+
+# Secrets
+.env
+
+# Generated outputs
+automation_results/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test/demo videos
+acci vdeo/
+

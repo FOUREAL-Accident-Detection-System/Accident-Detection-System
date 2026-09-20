@@ -1,0 +1,19 @@
+{
+    "fps": 10,
+    "image_width": 128,
+    "image_height": 128,
+    "sequence_length": 16,
+    "train_sequences": 723,
+    "validation_sequences": 292,
+    "test_sequences": 154,
+    "accuracy": 0.8701298701298701,
+    "precision": 0.7894736842105263,
+    "recall": 0.7142857142857143,
+    "f1_score": 0.75,
+    "true_negative": 104,
+    "false_positive": 8,
+    "false_negative": 12,
+    "true_positive": 30,
+    "training_time_seconds": 651.8143012523651,
+    "test_inference_time_seconds": 51.30600953102112
+}
