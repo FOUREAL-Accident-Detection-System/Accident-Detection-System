@@ -1,0 +1,2568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Accident Detection System</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ink: #211b18;
+    --muted: #756b65;
+    --paper: #fff7eb;
+    --surface: #fffdf8;
+
+    --orange: #f06435;
+    --orange-dark: #c94720;
+    --orange-light: #ff9a5c;
+
+    --cream: #fff1dc;
+    --yellow: #f4bd55;
+
+    --danger: #d93625;
+    --success: #32845d;
+
+    --dark: #25201d;
+    --dark-2: #342b27;
+
+    --line: #ead9c7;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--ink);
+    background:
+        radial-gradient(
+            circle at 8% 8%,
+            rgba(240,100,53,.12),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 90% 20%,
+            rgba(244,189,85,.14),
+            transparent 25%
+        ),
+        var(--paper);
+
+    min-height: 100vh;
+}
+
+.page {
+    width: min(1240px, 92%);
+    margin: auto;
+}
+
+/* ================= HEADER ================= */
+
+header {
+    padding: 28px 0 18px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.logo-mark {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 14px;
+
+    background: var(--orange);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
+
+    box-shadow:
+        7px 7px 0 rgba(240,100,53,.18);
+}
+
+.logo-text strong {
+    display: block;
+
+    font-size: 17px;
+    letter-spacing: .6px;
+}
+
+.logo-text small {
+    display: block;
+
+    color: var(--muted);
+
+    margin-top: 3px;
+
+    font-size: 11px;
+}
+
+/* ================= HERO ================= */
+
+.hero {
+    min-height: 470px;
+
+    position: relative;
+    overflow: hidden;
+
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    width: 57%;
+
+    padding: 65px 0;
+
+    position: relative;
+    z-index: 5;
+}
+
+.eyebrow {
+    color: var(--orange);
+
+    font-size: 11px;
+    font-weight: 800;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-family: Georgia, serif;
+
+    font-size: clamp(48px, 7vw, 84px);
+
+    line-height: .9;
+
+    letter-spacing: -4px;
+}
+
+.hero h1 span {
+    color: var(--orange);
+}
+
+.hero-description {
+    margin-top: 28px;
+
+    max-width: 570px;
+
+    color: var(--muted);
+
+    line-height: 1.7;
+
+    font-size: 15px;
+}
+
+.hero-meta {
+    margin-top: 28px;
+
+    display: flex;
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+.hero-tag {
+    padding: 9px 14px;
+
+    border: 1px solid #e5cdb7;
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,.7);
+
+    color: #66574e;
+
+    font-size: 11px;
+}
+
+/* ================= CRASH HERO VISUAL ================= */
+
+.crash-visual {
+    position: absolute;
+
+    right: -3%;
+    top: 0;
+
+    width: 52%;
+    height: 100%;
+
+    overflow: hidden;
+}
+
+/* road */
+
+.crash-road {
+    position: absolute;
+
+    width: 720px;
+    height: 235px;
+
+    right: -80px;
+    top: 145px;
+
+    background: #3a302c;
+
+    transform: rotate(-16deg);
+
+    border-radius: 45px;
+
+    box-shadow:
+        0 30px 55px rgba(40,30,25,.22);
+}
+
+.crash-road::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+
+    top: 48%;
+
+    height: 5px;
+
+    background:
+        repeating-linear-gradient(
+            90deg,
+            #ffd879 0 45px,
+            transparent 45px 82px
+        );
+}
+
+/* scan */
+
+.scan-ring {
+    position: absolute;
+
+    width: 230px;
+    height: 230px;
+
+    right: 185px;
+    top: 105px;
+
+    border:
+        2px dashed
+        rgba(240,100,53,.65);
+
+    border-radius: 50%;
+
+    z-index: 5;
+}
+
+.scan-ring::before {
+    content: "AI VISION";
+
+    position: absolute;
+
+    top: -20px;
+    left: 30px;
+
+    color: var(--orange);
+
+    font-size: 10px;
+    font-weight: 800;
+
+    letter-spacing: 2px;
+}
+
+/* cars */
+
+.crash-car {
+    position: absolute;
+
+    width: 125px;
+    height: 60px;
+
+    border-radius:
+        18px 26px 13px 13px;
+
+    z-index: 8;
+
+    box-shadow:
+        0 15px 28px rgba(30,20,15,.25);
+}
+
+.crash-car::before {
+    content: "";
+
+    position: absolute;
+
+    width: 58px;
+    height: 28px;
+
+    left: 32px;
+    top: -17px;
+
+    background: #dbe4e2;
+
+    border-radius:
+        14px 16px 4px 4px;
+}
+
+.crash-car::after {
+    content: "";
+
+    position: absolute;
+
+    left: 14px;
+    right: 14px;
+
+    bottom: -9px;
+
+    height: 19px;
+
+    background:
+        radial-gradient(
+            circle,
+            #211b18 0 45%,
+            transparent 48%
+        ) 0 0 / 55px 19px repeat-x;
+}
+
+.crash-car-a {
+    background: var(--orange);
+
+    right: 260px;
+    top: 190px;
+
+    transform:
+        rotate(-17deg)
+        translateX(20px);
+}
+
+.crash-car-b {
+    background: #f0b84e;
+
+    right: 115px;
+    top: 255px;
+
+    transform:
+        rotate(12deg)
+        translateX(-10px);
+}
+
+/* impact */
+
+.impact-burst {
+    position: absolute;
+
+    right: 205px;
+    top: 195px;
+
+    width: 110px;
+    height: 110px;
+
+    z-index: 12;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #fff;
+
+    font-size: 70px;
+
+    text-shadow:
+        0 0 25px rgba(240,100,53,.8);
+
+    transform: rotate(15deg);
+}
+
+.impact-label {
+    position: absolute;
+
+    right: 155px;
+    top: 125px;
+
+    z-index: 15;
+
+    padding: 9px 13px;
+
+    border-radius: 30px;
+
+    background: var(--orange);
+
+    color: white;
+
+    font-size: 10px;
+    font-weight: 900;
+
+    letter-spacing: 1px;
+
+    box-shadow:
+        0 10px 22px rgba(240,100,53,.3);
+}
+
+.alert-sticker {
+    position: absolute;
+
+    right: 65px;
+    top: 100px;
+
+    z-index: 15;
+
+    padding: 11px 15px;
+
+    background: #fffdf8;
+
+    border:
+        2px solid
+        var(--orange);
+
+    color: var(--orange);
+
+    border-radius: 12px;
+
+    font-size: 11px;
+    font-weight: 900;
+
+    transform: rotate(5deg);
+
+    box-shadow:
+        0 12px 25px rgba(30,20,15,.12);
+}
+
+/* smoke */
+
+.smoke {
+    position: absolute;
+
+    border-radius: 50%;
+
+    background:
+        rgba(120,108,101,.18);
+
+    z-index: 4;
+}
+
+.smoke-one {
+    width: 90px;
+    height: 90px;
+
+    right: 300px;
+    top: 125px;
+}
+
+.smoke-two {
+    width: 55px;
+    height: 55px;
+
+    right: 350px;
+    top: 95px;
+}
+
+/* ================= SECTION LABEL ================= */
+
+.section-label {
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    margin: 42px 0 18px;
+}
+
+.section-number {
+    font-family: Georgia, serif;
+
+    font-size: 27px;
+
+    color: var(--orange);
+}
+
+.section-label h2 {
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+}
+
+.section-line {
+    flex: 1;
+
+    height: 1px;
+
+    background: var(--line);
+}
+
+/* ================= MAIN PANEL ================= */
+
+.main-panel {
+    background:
+        rgba(255,253,248,.9);
+
+    border:
+        1px solid var(--line);
+
+    border-radius: 24px;
+
+    padding: 25px;
+
+    box-shadow:
+        0 20px 55px
+        rgba(180,100,45,.08);
+}
+
+.top-grid {
+    display: grid;
+
+    grid-template-columns:
+        .75fr 1.25fr;
+
+    gap: 20px;
+}
+
+/* ================= UPLOAD ================= */
+
+.upload-panel {
+    border:
+        1px solid var(--line);
+
+    border-radius: 19px;
+
+    padding: 24px;
+
+    background: #fffaf2;
+}
+
+.upload-panel h3 {
+    font-size: 18px;
+}
+
+.upload-panel p {
+    margin-top: 7px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+
+    line-height: 1.5;
+}
+
+.upload-zone {
+    display: block;
+
+    margin-top: 22px;
+
+    border:
+        2px dashed
+        #e5b995;
+
+    border-radius: 16px;
+
+    padding: 30px 15px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.upload-zone:hover {
+    border-color: var(--orange);
+
+    background: #fff1df;
+}
+
+.upload-icon {
+    font-size: 32px;
+
+    color: var(--orange);
+}
+
+.upload-zone strong {
+    display: block;
+
+    margin-top: 10px;
+
+    font-size: 14px;
+}
+
+.upload-zone small {
+    display: block;
+
+    margin-top: 6px;
+
+    color: var(--muted);
+
+    font-size: 11px;
+}
+
+#videoInput {
+    display: none;
+}
+
+.file-name {
+    margin-top: 12px;
+
+    color: var(--orange);
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    word-break: break-word;
+}
+
+.analyze-btn {
+    width: 100%;
+
+    border: none;
+
+    margin-top: 17px;
+
+    padding: 15px;
+
+    border-radius: 12px;
+
+    background: var(--orange);
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 900;
+
+    cursor: pointer;
+
+    transition: .2s;
+}
+
+.analyze-btn:hover {
+    background: var(--orange-dark);
+
+    transform:
+        translateY(-2px);
+}
+
+.analyze-btn:disabled {
+    opacity: .45;
+
+    cursor: not-allowed;
+
+    transform: none;
+}
+
+/* ================= VIDEO ================= */
+
+.video-panel {
+    border:
+        1px solid #3d302b;
+
+    border-radius: 19px;
+
+    padding: 18px;
+
+    background: var(--dark);
+
+    color: white;
+}
+
+.video-heading {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 12px;
+}
+
+.video-heading strong {
+    font-size: 13px;
+}
+
+.video-heading span {
+    font-size: 9px;
+
+    color: #cdbdb5;
+
+    letter-spacing: 1px;
+}
+
+video {
+    display: block;
+
+    width: 100%;
+
+    max-height: 430px;
+
+    border-radius: 12px;
+
+    background: #111;
+}
+
+.video-section {
+    display: none;
+}
+
+.video-info {
+    margin-top: 10px;
+
+    color: #cdbdb5;
+
+    font-size: 10px;
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    gap: 10px;
+}
+
+/* ================= PROCESSING ================= */
+
+.processing {
+    display: none;
+
+    margin-top: 25px;
+
+    border:
+        1px solid var(--line);
+
+    border-radius: 19px;
+
+    padding: 22px;
+
+    background: #fff3e3;
+}
+
+.processing-title {
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items: center;
+}
+
+.processing-title strong {
+    font-size: 14px;
+}
+
+.processing-title span {
+    color: var(--orange);
+
+    font-size: 10px;
+
+    font-weight: 900;
+}
+
+.steps {
+    margin-top: 17px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 9px;
+}
+
+.step {
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background: #f3e1cb;
+
+    color: #806c5c;
+
+    font-size: 10px;
+
+    font-weight: 700;
+}
+
+.step.active {
+    background: #ffe0bd;
+
+    color: #a94d27;
+}
+
+/* ================= RESULT ================= */
+
+.result {
+    display: none;
+
+    margin-top: 25px;
+}
+
+.result-layout {
+    display: grid;
+
+    grid-template-columns:
+        1.2fr .8fr;
+
+    gap: 18px;
+}
+
+.result-main {
+    border-radius: 20px;
+
+    padding: 30px;
+
+    border:
+        1px solid var(--line);
+
+    background:
+        var(--surface);
+}
+
+.result-main.accident {
+    border-color: #efb1a4;
+
+    background: #fff5f1;
+}
+
+.result-main.normal {
+    border-color: #b8d8c4;
+
+    background: #f4fbf6;
+}
+
+.result-kicker {
+    font-size: 10px;
+
+    letter-spacing: 2px;
+
+    color: var(--muted);
+
+    text-transform: uppercase;
+}
+
+.result-label {
+    font-family: Georgia, serif;
+
+    font-size:
+        clamp(30px, 4vw, 48px);
+
+    margin-top: 10px;
+
+    line-height: 1;
+}
+
+.accident .result-label {
+    color: var(--danger);
+}
+
+.normal .result-label {
+    color: var(--success);
+}
+
+.result-description {
+    margin-top: 12px;
+
+    color: var(--muted);
+
+    font-size: 12px;
+}
+
+.metrics {
+    margin-top: 25px;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3,1fr);
+
+    gap: 10px;
+}
+
+.metric {
+    border:
+        1px solid var(--line);
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    background:
+        rgba(255,255,255,.7);
+}
+
+.metric small {
+    color: var(--muted);
+
+    font-size: 9px;
+}
+
+.metric strong {
+    display: block;
+
+    margin-top: 6px;
+
+    color: var(--ink);
+
+    font-size: 18px;
+}
+
+/* ================= TIMELINE ================= */
+
+.timeline-panel {
+    border:
+        1px solid var(--line);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    background: #fff0dd;
+}
+
+.timeline-panel h3 {
+    font-size: 14px;
+}
+
+.timeline-panel p {
+    margin-top: 5px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.5;
+}
+
+.timeline {
+    position: relative;
+
+    height: 75px;
+
+    margin-top: 25px;
+}
+
+.timeline-line {
+    position: absolute;
+
+    top: 28px;
+
+    left: 0;
+    right: 0;
+
+    height: 5px;
+
+    background: #dfcdbb;
+
+    border-radius: 5px;
+}
+
+.timeline-point {
+    position: absolute;
+
+    top: 19px;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 50%;
+
+    background:
+        var(--orange);
+
+    border: 4px solid white;
+
+    box-shadow:
+        0 0 0 4px
+        rgba(240,100,53,.2);
+}
+
+.timeline-label {
+    position: absolute;
+
+    top: 49px;
+
+    transform:
+        translateX(-50%);
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    color: var(--orange);
+
+    white-space: nowrap;
+}
+
+.jump-btn {
+    width: 100%;
+
+    margin-top: 13px;
+
+    padding: 11px;
+
+    border:
+        1px solid #e0c5ac;
+
+    background: white;
+
+    border-radius: 10px;
+
+    color: var(--orange-dark);
+
+    cursor: pointer;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+/* ================= EVIDENCE ================= */
+
+.evidence {
+    margin-top: 18px;
+
+    padding: 22px;
+
+    border:
+        1px solid var(--line);
+
+    border-radius: 18px;
+
+    background: #fff;
+}
+
+.evidence h3 {
+    font-size: 14px;
+}
+
+.evidence p {
+    margin-top: 5px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    line-height: 1.5;
+}
+
+.evidence-placeholder {
+    margin-top: 15px;
+
+    min-height: 180px;
+
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f4e4d3,
+            #fff4e5
+        );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #88776c;
+
+    font-size: 11px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    overflow: hidden;
+}
+
+.evidence-image {
+    display: block;
+
+    width: 100%;
+
+    max-height: 520px;
+
+    object-fit: contain;
+
+    border-radius: 10px;
+
+    background: #211b18;
+}
+
+.evidence-caption {
+    margin-top: 9px;
+
+    color: var(--muted);
+
+    font-size: 10px;
+
+    text-align: center;
+}
+
+/* ================= SMS ================= */
+
+.sms-panel {
+    margin-top: 18px;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    background:
+        var(--dark-2);
+
+    color: white;
+
+    display: flex;
+
+    justify-content:
+        space-between;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.sms-panel h3 {
+    font-size: 14px;
+}
+
+.sms-panel p {
+    margin-top: 5px;
+
+    color: #d2c2ba;
+
+    font-size: 10px;
+}
+
+.sms-status {
+    padding: 10px 15px;
+
+    border-radius: 30px;
+
+    background: #64564f;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    white-space: nowrap;
+}
+
+.sms-status.sent {
+    background: var(--success);
+}
+
+.sms-status.failed {
+    background: var(--danger);
+}
+
+.sms-status.not-triggered {
+    background: #6e625b;
+}
+
+/* ================= RESET ================= */
+
+.reset-btn {
+    margin-top: 18px;
+
+    padding: 11px 17px;
+
+    border:
+        1px solid var(--line);
+
+    background: white;
+
+    border-radius: 10px;
+
+    color: var(--orange-dark);
+
+    cursor: pointer;
+
+    font-size: 11px;
+
+    font-weight: 800;
+}
+
+footer {
+    text-align: center;
+
+    padding: 45px 0;
+
+    color: #998a80;
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width:850px) {
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .crash-visual {
+        opacity: .20;
+
+        width: 100%;
+    }
+
+    .top-grid,
+    .result-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .steps {
+        grid-template-columns:
+            1fr 1fr;
+    }
+}
+
+@media(max-width:550px) {
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .metrics {
+        grid-template-columns: 1fr;
+    }
+
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .sms-panel {
+        flex-direction: column;
+
+        align-items:
+            flex-start;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="page">
+
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+    <div class="logo-area">
+
+        <div class="logo-mark">
+            🚨
+        </div>
+
+        <div class="logo-text">
+
+            <strong>
+                ACCIDENT DETECTION SYSTEM
+            </strong>
+
+            <small>
+                AI-powered road intelligence
+            </small>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            ROAD INTELLIGENCE / 01
+        </div>
+
+        <h1>
+            Accident<br>
+            <span>Detection</span>
+            System
+        </h1>
+
+        <p class="hero-description">
+
+            An AI-powered video analysis system
+            that studies temporal traffic patterns
+            to identify potential accidents,
+            locate the approximate detection window
+            and trigger an emergency response.
+
+        </p>
+
+        <div class="hero-meta">
+
+            <div class="hero-tag">
+                10 FPS Analysis
+            </div>
+
+            <div class="hero-tag">
+                MobileNetV2 + LSTM
+            </div>
+
+            <div class="hero-tag">
+                Temporal Detection
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CRASH VISUAL -->
+
+    <div class="crash-visual">
+
+        <div class="crash-road"></div>
+
+        <div class="scan-ring"></div>
+
+        <div class="crash-car crash-car-a"></div>
+
+        <div class="crash-car crash-car-b"></div>
+
+        <div class="impact-burst">
+            ✦
+        </div>
+
+        <div class="impact-label">
+            ⚠️ IMPACT ZONE
+        </div>
+
+        <div class="alert-sticker">
+            🚨 AI ALERT
+        </div>
+
+        <div class="smoke smoke-one"></div>
+
+        <div class="smoke smoke-two"></div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= VIDEO INTAKE ================= -->
+
+<div class="section-label">
+
+    <span class="section-number">
+        01
+    </span>
+
+    <h2>
+        Video Intake
+    </h2>
+
+    <div class="section-line"></div>
+
+</div>
+
+
+<section class="main-panel">
+
+    <div class="top-grid">
+
+
+        <!-- UPLOAD -->
+
+        <div class="upload-panel">
+
+            <h3>
+                Submit traffic footage
+            </h3>
+
+            <p>
+                Upload a traffic video for
+                temporal accident analysis.
+            </p>
+
+
+            <label
+                class="upload-zone"
+                for="videoInput"
+            >
+
+                <div class="upload-icon">
+                    ↑
+                </div>
+
+                <strong>
+                    Choose Video
+                </strong>
+
+                <small>
+                    MP4, MOV, AVI and other
+                    video formats
+                </small>
+
+                <div
+                    class="file-name"
+                    id="fileName"
+                >
+                    No video selected
+                </div>
+
+            </label>
+
+
+            <input
+                type="file"
+                id="videoInput"
+                accept="video/*"
+            >
+
+
+            <button
+                class="analyze-btn"
+                id="analyzeBtn"
+                disabled
+            >
+                ANALYZE VIDEO →
+            </button>
+
+        </div>
+
+
+        <!-- VIDEO PREVIEW -->
+
+        <div
+            class="video-panel video-section"
+            id="videoSection"
+        >
+
+            <div class="video-heading">
+
+                <strong>
+                    Video Preview
+                </strong>
+
+                <span>
+                    MANUAL INSPECTION ENABLED
+                </span>
+
+            </div>
+
+
+            <video
+                id="videoPreview"
+                controls
+            ></video>
+
+
+            <div class="video-info">
+
+                <span id="videoFileInfo">
+                    Uploaded video
+                </span>
+
+                <span>
+                    Play • Pause • Seek
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= PROCESSING ================= -->
+
+    <div
+        class="processing"
+        id="processing"
+    >
+
+        <div class="processing-title">
+
+            <strong>
+                AI analysis in progress
+            </strong>
+
+            <span>
+                PROCESSING
+            </span>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step active">
+                ✓ VIDEO RECEIVED
+            </div>
+
+            <div class="step active">
+                ✓ EXTRACTING FRAMES
+            </div>
+
+            <div class="step active">
+                ✓ MOBILENETV2 FEATURES
+            </div>
+
+            <div class="step active">
+                ✓ LSTM TEMPORAL ANALYSIS
+            </div>
+
+            <div class="step active">
+                ✓ CLASSIFICATION
+            </div>
+
+            <div class="step active">
+                ✓ GENERATING RESULT
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= RESULT ================= -->
+
+    <div
+        class="result"
+        id="result"
+    >
+
+
+        <div class="section-label">
+
+            <span class="section-number">
+                02
+            </span>
+
+            <h2>
+                Detection
+            </h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="result-layout">
+
+
+            <!-- RESULT CARD -->
+
+            <div
+                class="result-main"
+                id="resultBanner"
+            >
+
+                <div class="result-kicker">
+                    AI CLASSIFICATION RESULT
+                </div>
+
+
+                <div
+                    class="result-label"
+                    id="resultLabel"
+                ></div>
+
+
+                <div
+                    class="result-description"
+                    id="resultSubtitle"
+                ></div>
+
+
+                <div class="metrics">
+
+
+                    <div class="metric">
+
+                        <small>
+                            CONFIDENCE
+                        </small>
+
+                        <strong
+                            id="confidenceValue"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="metric">
+
+                        <small>
+                            ACCIDENT PROBABILITY
+                        </small>
+
+                        <strong
+                            id="probabilityValue"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="metric">
+
+                        <small>
+                            APPROX. DETECTION WINDOW
+                        </small>
+
+                        <strong
+                            id="timestampValue"
+                        >
+                            —
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- TIMELINE -->
+
+            <div class="timeline-panel">
+
+                <h3>
+                    Detection Timeline
+                </h3>
+
+                <p>
+                    Approximate AI detection window
+                    within the uploaded video.
+                </p>
+
+
+                <div class="timeline">
+
+                    <div class="timeline-line"></div>
+
+
+                    <div
+                        class="timeline-point"
+                        id="timelinePoint"
+                        style="left:5%"
+                    ></div>
+
+
+                    <div
+                        class="timeline-label"
+                        id="timelineLabel"
+                        style="left:5%"
+                    >
+                        —
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="jump-btn"
+                    id="jumpBtn"
+                >
+                    ↳ JUMP TO DETECTION POINT
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= EVIDENCE ================= -->
+
+        <div class="section-label">
+
+            <span class="section-number">
+                03
+            </span>
+
+            <h2>
+                Detection Evidence
+            </h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="evidence">
+
+            <h3>
+                Visual evidence
+            </h3>
+
+            <p>
+                Genuine frame extracted from the
+                uploaded video around the AI detection window.
+            </p>
+
+
+            <div
+                class="evidence-placeholder"
+                id="evidencePlaceholder"
+            >
+                Evidence frame will appear here
+                after accident detection.
+            </div>
+
+        </div>
+
+
+        <!-- ================= SMS ================= -->
+
+        <div class="section-label">
+
+            <span class="section-number">
+                04
+            </span>
+
+            <h2>
+                Emergency Response
+            </h2>
+
+            <div class="section-line"></div>
+
+        </div>
+
+
+        <div class="sms-panel">
+
+            <div>
+
+                <h3>
+                    Emergency SMS Alert
+                </h3>
+
+                <p>
+                    Status is populated from the
+                    actual TextBee response.
+                </p>
+
+            </div>
+
+
+            <div
+                class="sms-status"
+                id="smsStatus"
+            >
+                STATUS PENDING
+            </div>
+
+        </div>
+
+
+        <button
+            class="reset-btn"
+            onclick="resetAnalysis()"
+        >
+            ↻ Analyze another video
+        </button>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    ACCIDENT DETECTION SYSTEM
+    &nbsp;•&nbsp;
+    DETECT • ALERT • SAVE LIVES
+
+</footer>
+
+
+</div>
+
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+/* =====================================================
+   ELEMENT REFERENCES
+===================================================== */
+
+const videoInput =
+    document.getElementById("videoInput");
+
+const fileName =
+    document.getElementById("fileName");
+
+const analyzeBtn =
+    document.getElementById("analyzeBtn");
+
+const videoSection =
+    document.getElementById("videoSection");
+
+const videoPreview =
+    document.getElementById("videoPreview");
+
+const videoFileInfo =
+    document.getElementById("videoFileInfo");
+
+const processing =
+    document.getElementById("processing");
+
+const result =
+    document.getElementById("result");
+
+const resultBanner =
+    document.getElementById("resultBanner");
+
+const resultLabel =
+    document.getElementById("resultLabel");
+
+const resultSubtitle =
+    document.getElementById("resultSubtitle");
+
+const confidenceValue =
+    document.getElementById("confidenceValue");
+
+const probabilityValue =
+    document.getElementById("probabilityValue");
+
+const timestampValue =
+    document.getElementById("timestampValue");
+
+const timelinePoint =
+    document.getElementById("timelinePoint");
+
+const timelineLabel =
+    document.getElementById("timelineLabel");
+
+const jumpBtn =
+    document.getElementById("jumpBtn");
+
+const evidencePlaceholder =
+    document.getElementById(
+        "evidencePlaceholder"
+    );
+
+const smsStatus =
+    document.getElementById(
+        "smsStatus"
+    );
+
+
+let selectedFile = null;
+
+let detectionTimestamp = 0;
+
+let approximateStart = 0;
+
+let approximateEnd = 0;
+
+let representativeTimestamp = 0;
+
+
+/* =====================================================
+   FILE SELECTION
+===================================================== */
+
+videoInput.addEventListener(
+    "change",
+    function () {
+
+        selectedFile =
+            this.files[0];
+
+        if (!selectedFile) {
+            return;
+        }
+
+
+        fileName.textContent =
+            selectedFile.name;
+
+
+        videoFileInfo.textContent =
+            selectedFile.name +
+            " • " +
+            (
+                selectedFile.size /
+                (1024 * 1024)
+            ).toFixed(2) +
+            " MB";
+
+
+        const videoURL =
+            URL.createObjectURL(
+                selectedFile
+            );
+
+
+        videoPreview.src =
+            videoURL;
+
+
+        videoSection.style.display =
+            "block";
+
+
+        analyzeBtn.disabled =
+            false;
+
+
+        result.style.display =
+            "none";
+
+
+        processing.style.display =
+            "none";
+
+
+        smsStatus.textContent =
+            "STATUS PENDING";
+
+
+        smsStatus.className =
+            "sms-status";
+
+
+        evidencePlaceholder.innerHTML =
+            "Evidence frame will appear here after accident detection.";
+
+    }
+);
+
+
+/* =====================================================
+   ANALYZE VIDEO
+===================================================== */
+
+analyzeBtn.addEventListener(
+    "click",
+    async function () {
+
+        if (!selectedFile) {
+            return;
+        }
+
+
+        analyzeBtn.disabled =
+            true;
+
+
+        processing.style.display =
+            "block";
+
+
+        result.style.display =
+            "none";
+
+
+        const formData =
+            new FormData();
+
+
+        formData.append(
+            "file",
+            selectedFile
+        );
+
+
+        try {
+
+            const response =
+                await fetch(
+                    "http://127.0.0.1:8000/upload",
+                    {
+                        method: "POST",
+                        body: formData
+                    }
+                );
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    "Backend returned HTTP " +
+                    response.status
+                );
+
+            }
+
+
+            const data =
+                await response.json();
+
+
+            console.log(
+                "Backend result:",
+                data
+            );
+
+
+            showResult(data);
+
+        }
+
+
+        catch (error) {
+
+            console.error(
+                "Analysis error:",
+                error
+            );
+
+
+            alert(
+                "Analysis failed.\n\n" +
+                error.message
+            );
+
+        }
+
+
+        finally {
+
+            processing.style.display =
+                "none";
+
+
+            analyzeBtn.disabled =
+                false;
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   SHOW RESULT
+===================================================== */
+
+function showResult(data) {
+
+    result.style.display =
+        "block";
+
+
+    const prediction =
+        String(
+            data.prediction || ""
+        ).toUpperCase();
+
+
+    const probability =
+        Number(
+            data.accident_probability || 0
+        );
+
+
+    const confidence =
+        Number(
+            data.confidence ||
+            (
+                prediction.includes(
+                    "ACCIDENT"
+                )
+                ? probability
+                : 1 - probability
+            )
+        );
+
+
+    detectionTimestamp =
+        Number(
+            data.timestamp_seconds || 0
+        );
+
+
+    approximateStart =
+        Number(
+            data.approximate_start_seconds ??
+            detectionTimestamp
+        );
+
+
+    approximateEnd =
+        Number(
+            data.approximate_end_seconds ??
+            (
+                approximateStart +
+                3.2
+            )
+        );
+
+
+    representativeTimestamp =
+        Number(
+            data.representative_timestamp_seconds ??
+            (
+                approximateStart +
+                (
+                    approximateEnd -
+                    approximateStart
+                ) / 2
+            )
+        );
+
+
+    /* ============================================
+       ACCIDENT / NORMAL
+    ============================================ */
+
+    if (
+        prediction.includes(
+            "ACCIDENT"
+        )
+    ) {
+
+        resultBanner.className =
+            "result-main accident";
+
+
+        resultLabel.textContent =
+            "ACCIDENT DETECTED";
+
+
+        resultSubtitle.textContent =
+            "Potential accident pattern detected in the uploaded video.";
+
+    }
+
+    else {
+
+        resultBanner.className =
+            "result-main normal";
+
+
+        resultLabel.textContent =
+            "NO ACCIDENT DETECTED";
+
+
+        resultSubtitle.textContent =
+            "No accident pattern was detected.";
+
+    }
+
+
+    /* ============================================
+       METRICS
+    ============================================ */
+
+    confidenceValue.textContent =
+        (
+            confidence * 100
+        ).toFixed(2) +
+        "%";
+
+
+    probabilityValue.textContent =
+        (
+            probability * 100
+        ).toFixed(2) +
+        "%";
+
+
+    if (
+        prediction.includes(
+            "ACCIDENT"
+        )
+    ) {
+
+        timestampValue.textContent =
+            approximateStart.toFixed(2) +
+            "–" +
+            approximateEnd.toFixed(2) +
+            " s";
+
+    }
+
+    else {
+
+        timestampValue.textContent =
+            "—";
+
+    }
+
+
+    /* ============================================
+       TIMELINE
+    ============================================ */
+
+    updateTimeline();
+
+
+    /* ============================================
+       VIDEO REPRESENTATIVE POINT
+    ============================================ */
+
+    if (
+        prediction.includes(
+            "ACCIDENT"
+        )
+    ) {
+
+        videoPreview.addEventListener(
+            "loadedmetadata",
+            function setVideoTime() {
+
+                if (
+                    representativeTimestamp <=
+                    videoPreview.duration
+                ) {
+
+                    videoPreview.currentTime =
+                        representativeTimestamp;
+
+                }
+
+
+                videoPreview.removeEventListener(
+                    "loadedmetadata",
+                    setVideoTime
+                );
+
+            }
+        );
+
+
+        if (
+            videoPreview.readyState >= 1 &&
+            representativeTimestamp <=
+            videoPreview.duration
+        ) {
+
+            videoPreview.currentTime =
+                representativeTimestamp;
+
+        }
+
+    }
+
+
+    /* ============================================
+       EVIDENCE FRAME
+    ============================================ */
+
+    if (
+        prediction.includes(
+            "ACCIDENT"
+        ) &&
+        data.evidence_frame_url
+    ) {
+
+        const frameUrl =
+            "http://127.0.0.1:8000" +
+            data.evidence_frame_url;
+
+
+        evidencePlaceholder.innerHTML = `
+
+            <div style="width:100%">
+
+                <img
+                    class="evidence-image"
+                    src="${frameUrl}"
+                    alt="Extracted accident evidence frame"
+                >
+
+                <div class="evidence-caption">
+
+                    Genuine evidence frame •
+                    representative point:
+                    ${representativeTimestamp.toFixed(2)} s
+
+                </div>
+
+            </div>
+
+        `;
+
+    }
+
+    else if (
+        prediction.includes(
+            "ACCIDENT"
+        )
+    ) {
+
+        evidencePlaceholder.innerHTML = `
+
+            <div>
+                Accident detected,
+                but no evidence frame was returned.
+            </div>
+
+        `;
+
+    }
+
+    else {
+
+        evidencePlaceholder.innerHTML = `
+
+            <div>
+                No accident detected.
+                No accident evidence frame is required.
+            </div>
+
+        `;
+
+    }
+
+
+    /* ============================================
+       REAL TEXTBEE STATUS
+    ============================================ */
+
+    if (
+        !prediction.includes(
+            "ACCIDENT"
+        )
+    ) {
+
+        smsStatus.textContent =
+            "SMS NOT TRIGGERED";
+
+
+        smsStatus.className =
+            "sms-status not-triggered";
+
+    }
+
+    else if (
+        data.sms_sent === true
+    ) {
+
+        smsStatus.textContent =
+            "SMS SENT";
+
+
+        smsStatus.className =
+            "sms-status sent";
+
+    }
+
+    else {
+
+        smsStatus.textContent =
+            "SMS FAILED";
+
+
+        smsStatus.className =
+            "sms-status failed";
+
+    }
+
+}
+
+
+/* =====================================================
+   TIMELINE
+===================================================== */
+
+function updateTimeline() {
+
+    if (
+        !videoPreview.duration ||
+        !approximateStart
+    ) {
+
+        timelinePoint.style.left =
+            "5%";
+
+
+        timelineLabel.style.left =
+            "5%";
+
+
+        timelineLabel.textContent =
+            approximateStart.toFixed(2) +
+            "–" +
+            approximateEnd.toFixed(2) +
+            " s";
+
+
+        return;
+
+    }
+
+
+    let percentage =
+        (
+            approximateStart /
+            videoPreview.duration
+        ) * 100;
+
+
+    percentage =
+        Math.max(
+            2,
+            Math.min(
+                98,
+                percentage
+            )
+        );
+
+
+    timelinePoint.style.left =
+        percentage + "%";
+
+
+    timelineLabel.style.left =
+        percentage + "%";
+
+
+    timelineLabel.textContent =
+        approximateStart.toFixed(2) +
+        "–" +
+        approximateEnd.toFixed(2) +
+        " s";
+
+}
+
+
+/* =====================================================
+   VIDEO METADATA
+===================================================== */
+
+videoPreview.addEventListener(
+    "loadedmetadata",
+    function () {
+
+        updateTimeline();
+
+    }
+);
+
+
+/* =====================================================
+   JUMP TO REPRESENTATIVE DETECTION POINT
+===================================================== */
+
+jumpBtn.addEventListener(
+    "click",
+    function () {
+
+        if (
+            videoPreview.duration
+        ) {
+
+            videoPreview.currentTime =
+                representativeTimestamp;
+
+
+            videoPreview.play();
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   RESET
+===================================================== */
+
+function resetAnalysis() {
+
+    selectedFile =
+        null;
+
+
+    detectionTimestamp =
+        0;
+
+
+    approximateStart =
+        0;
+
+
+    approximateEnd =
+        0;
+
+
+    representativeTimestamp =
+        0;
+
+
+    videoInput.value =
+        "";
+
+
+    fileName.textContent =
+        "No video selected";
+
+
+    videoFileInfo.textContent =
+        "Uploaded video";
+
+
+    videoPreview.removeAttribute(
+        "src"
+    );
+
+
+    videoPreview.load();
+
+
+    videoSection.style.display =
+        "none";
+
+
+    processing.style.display =
+        "none";
+
+
+    result.style.display =
+        "none";
+
+
+    analyzeBtn.disabled =
+        true;
+
+
+    smsStatus.textContent =
+        "STATUS PENDING";
+
+
+    smsStatus.className =
+        "sms-status";
+
+
+    evidencePlaceholder.innerHTML =
+        "Evidence frame will appear here after accident detection.";
+
+}
+
+</script>
+
+</body>
+</html>
