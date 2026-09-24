@@ -237,6 +237,7 @@ Accident-Detection-System/
 │   └── normal/
 │
 └── README.md
+
 🛠️ Technologies Used
 Programming
 Python
@@ -248,6 +249,7 @@ LSTM
 Computer Vision
 OpenCV
 NumPy
+
 Web Application
 FastAPI
 HTML
@@ -259,6 +261,7 @@ Development
 Visual Studio Code
 Git
 GitHub
+
 💻 Environment
 
 The project was developed and tested using:
@@ -270,6 +273,7 @@ NumPy
 scikit-learn
 Windows
 CPU-based execution environment
+
 👥 Team Contributions
 AI/ML
 Problem definition
@@ -312,6 +316,7 @@ Severity classification
 Improved localization of accident regions
 Deployment on suitable real-time hardware
 Further optimization for inference speed
+
 ▶️ Running the Web Application
 
 Start the backend from the project root:
